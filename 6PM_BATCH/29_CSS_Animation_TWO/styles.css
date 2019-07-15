@@ -1,0 +1,65 @@
+body{
+    background-color: black;
+}
+div{
+    margin: 200px 0 0 200px;
+}
+div span{
+    display: inline-block;
+    box-shadow: 0 0 10px black;
+    font-family: "Comic Sans MS",sans-serif;
+    font-size: 50px;
+    margin: 10px;
+    padding: 10px 25px;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    animation: move 0.8s infinite linear;
+}
+@keyframes move {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(100px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+div span:nth-child(1){
+    background: linear-gradient(45deg,black,purple);
+    box-shadow: 0 10px 10px purple;
+    animation-delay: 0.1s;
+}
+div span:nth-child(2){
+    background: linear-gradient(45deg,black,yellow);
+    box-shadow: 0 10px 10px yellow;
+    animation-delay: 0.2s;
+}
+div span:nth-child(3){
+    background: linear-gradient(45deg,black,blueviolet);
+    box-shadow: 0 10px 10px blueviolet;
+    animation-delay: 0.3s;
+}
+div span:nth-child(4){
+    background: linear-gradient(45deg,black,aqua);
+    box-shadow: 0 10px 10px aqua;
+    animation-delay: 0.4s;
+}
+div span:nth-child(5){
+    background: linear-gradient(45deg,black,orangered);
+    box-shadow: 0 10px 10px orangered;
+    animation-delay: 0.5s;
+}
+div span:nth-child(6){
+    background: linear-gradient(45deg,black,limegreen);
+    box-shadow: 0 10px 10px limegreen;
+    animation-delay: 0.6s;
+}
+div span:nth-child(7){
+    background: linear-gradient(45deg,black,darkcyan);
+    box-shadow: 0 10px 10px darkcyan;
+    animation-delay: 0.7s;
+}
+
